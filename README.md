@@ -30,16 +30,16 @@ and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here
 
 3. copy files to your home directory:
 
-        git clone git://github.com/kaochenlong/eddie-vim.git
+        git clone git://github.com/bfeng/vim4Lin.git
 
 4. cd to `eddie-vim` directory and execute the `update.sh` to get latest version modules:
 
-        cd eddie-vim
+        cd vim4Lin
         ./update.sh
 
 5. make a symbolic link `.vim` to `eddie-vim` that you just cloned, or just rename it to `.vim` also be fine:
 
-        ln -s eddie-vim .vim
+        ln -s vim4Lin .vim
 
 6. link the vimrc to
 
@@ -51,7 +51,7 @@ and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here
 
 8. if you use GUI version VIM, such as MacVim or GVim, you can also link to `.gvimrc`:
 
-        ln -s eddie-vim/gvimrc .gvimrc
+        ln -s .vim/gvimrc .gvimrc
 
 9. if you use Powerline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/scotu/ubuntu-mono-powerline), it looks pretty nice.
 
@@ -85,7 +85,6 @@ change directory to `~/.vim` and execute `./update.sh` script, it should do all 
 
     h. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
 
-
     i. `<leader>v` to open `.vimrc` in a new tab.
 
     j. `<leader>0` to edit or create `README.md` in current working directory.
@@ -105,3 +104,4 @@ and [Exuberant Ctags](http://ctags.sourceforge.net/) is recommended.
 Enjoy it, and if there's any question or comment, feel free to let me know :)
 
 Eddie Kao (eddie@digik.com.tw)
+Bo Feng (bfeng1216 AT gmail.com)
