@@ -30,7 +30,7 @@ and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here
 
 3. copy files to your home directory:
 
-        git clone git://github.com/bfeng/vim4Lin.git
+        git clone https://github.com/bfeng/vim4Lin.git
 
 4. cd to `eddie-vim` directory and execute the `update.sh` to get latest version modules:
 
