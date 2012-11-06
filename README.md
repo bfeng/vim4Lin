@@ -16,7 +16,7 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 
 It's how my Vim looks now:
 
-![image](https://github.com/kaochenlong/eddie-vim/raw/master/screenshots/vim-2012-03-27-macvim.png)
+![image](https://github.com/bfeng/vim/raw/master/screenshots/Screenshot.png)
 
 and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here</a> are some screenshots on the other platforms.
 
