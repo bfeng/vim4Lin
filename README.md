@@ -32,12 +32,12 @@ and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here
 
         git clone https://github.com/bfeng/vim4Lin.git
 
-4. cd to `eddie-vim` directory and execute the `update.sh` to get latest version modules:
+4. cd to `vim4Lin` directory and execute the `update.sh` to get latest version modules:
 
         cd vim4Lin
         ./update.sh
 
-5. make a symbolic link `.vim` to `eddie-vim` that you just cloned, or just rename it to `.vim` also be fine:
+5. make a symbolic link `.vim` to `vim4Lin` that you just cloned, or just rename it to `.vim` also be fine:
 
         ln -s vim4Lin .vim
 
