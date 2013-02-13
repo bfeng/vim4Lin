@@ -1,16 +1,9 @@
-" My currently working version Vimrc
-" I kept all other settings in plugins/settings directory
-"
-" Eddie Kao
-" http://blog.eddie.com.tw
-" eddie@digik.com.tw
-
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-filetype off
+source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
-filetype plugin indent on
+filetype off
 call pathogen#infect()
-call pathogen#helptags()
+syntax on
+filetype plugin indent on
 
 " hit enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>

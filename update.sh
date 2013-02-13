@@ -8,5 +8,4 @@ git submodule foreach git submodule update
 
 # special case
 # vim-powerline : develop
-git submodule foreach '[ "$path" = "bundle/vim-powerline" ] && branch=develop \
-  || branch=master; git checkout $branch'
+git submodule foreach '[ "$path" = "bundle/vim-powerline" ] && branch=develop || branch=master; git checkout $branch'
