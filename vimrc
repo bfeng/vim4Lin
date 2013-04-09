@@ -1,5 +1,5 @@
 source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#runtime_append_all_bundles()
+call pathogen#incubate()
 filetype off
 call pathogen#infect()
 syntax on
