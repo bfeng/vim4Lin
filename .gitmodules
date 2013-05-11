@@ -106,9 +106,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = https://github.com/vim-scripts/nginx.vim.git
-[submodule "bundle/vim-indent-guides"]
-	path = bundle/vim-indent-guides
-	url = https://github.com/nathanaelkane/vim-indent-guides.git
 [submodule "bundle/vim-indent-object"]
 	path = bundle/vim-indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
