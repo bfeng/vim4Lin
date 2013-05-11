@@ -14,11 +14,11 @@ You may notice that there are several vimrc files:
 
 you can link your `~/.vimrc` to any one of them as you wish :)
 
-It's how my Vim looks now:
+It's a screenshot of the up-to-date configuration:
 
 ![image](https://github.com/bfeng/vim4Lin/blob/master/screenshots/Screenshot.png?raw=true)
 
-and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here</a> are some screenshots on the other platforms.
+The content above is from http://flask.pocoo.org/snippets/5/
 
 ## Usage
 
