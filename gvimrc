@@ -6,7 +6,7 @@ set linespace=2
 if has("gui_macvim")
   set guifont=Monaco:h17
 elseif has("gui_gtk")
-  set guifont=Monospace\ 14
+  set guifont=Monospace\ 10
 else
   set guifont=Monaco:h17
 end

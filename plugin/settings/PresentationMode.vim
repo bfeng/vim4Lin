@@ -19,7 +19,7 @@ function! PresentationModeOff()
   if has("gui_macvim")
     set guifont=Monaco:h17           " for Mac
   elseif has("gui_gtk")
-    set guifont=Monospace\ 14        " for ubuntu
+    set guifont=Monospace\ 10        " for ubuntu
   end
 endfunction
 
