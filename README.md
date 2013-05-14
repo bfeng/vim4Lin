@@ -90,18 +90,11 @@ change directory to `~/.vim` and execute `./update.sh` script, it should do all 
     j. `<leader>0` to edit or create `README.md` in current working directory.
 
 4. Remove tailing whitespace automatically while saving.
-
-## FAQ
-
-if you can not found `ctags` command, just find your ctags path and replace my settings in `plugin/settings/Ctags.vim` file:
-
-    let Tlist_Ctags_Cmd = '/your/path/to/ctags'
-
-and [Exuberant Ctags](http://ctags.sourceforge.net/) is recommended.
+5. [Exuberant Ctags](http://ctags.sourceforge.net/) is recommended for the executable of ctags.
 
 ## Contact
 
 Enjoy it, and if there's any question or comment, feel free to let me know :)
 
-Eddie Kao (eddie@digik.com.tw)
-Bo Feng (bfeng1216 AT gmail.com)
+## Reference
+This work is pre-done by Eddie Kao (eddie@digik.com.tw)
