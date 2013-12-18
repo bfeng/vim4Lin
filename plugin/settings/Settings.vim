@@ -41,12 +41,9 @@ set incsearch                         " incremental search
 syntax enable
 set t_Co=256
 try
+  let g:molokai_original = 1
+  colorscheme molokai
   set background=dark
-  if !has('gui_running')
-    let g:solarized_termcolors=&t_Co
-    let g:solarized_termtrans=1
-  endif
-  colorscheme solarized
 catch
   colorscheme default
 endtry
