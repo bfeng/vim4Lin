@@ -1,5 +1,5 @@
 #!/bin/sh
-git pull origin master
+git pull origin airline
 git submodule init
 git submodule update
 git submodule foreach git submodule init
