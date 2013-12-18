@@ -1,6 +1,5 @@
 set guioptions=ce
 set antialias
-colorscheme rails_envy
 set linespace=2
 
 if has("gui_macvim")

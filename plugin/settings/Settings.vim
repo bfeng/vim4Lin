@@ -41,8 +41,14 @@ set incsearch                         " incremental search
 syntax enable
 set t_Co=256
 try
-  colorscheme rails_envy
+  set background=dark
+  if !has('gui_running')
+    let g:solarized_termcolors=&t_Co
+    let g:solarized_termtrans=1
+  endif
+  colorscheme solarized
 catch
+  colorscheme default
 endtry
 
 set nobackup                          " no *~ backup files
