@@ -1,16 +1,12 @@
-My personal Vim configurations and some plugins which I used in my daily job.
+This is another vim configuration, which I normally use under terminal. So default theme is changed to `molokai`, which is optimized for C and terminals.
 
-I put Vim related settings in `plugin/settings/Settings.vim`, and isolate other plugins' settings in `plugin/settings` directory.
+Vim related settings are in `plugin/settings/Settings.vim`, and other plugins' settings are in `plugin/settings` corresponding directories.
 
-You may notice that there are several vimrc files:
+Two vimrc files:
 
 1. `vimrc`, standard version vimrc.
 
-2. `easy-vimrc`, same as vimrc, but add some easier key mapping for new Vimer.
-
-3. `pro-vimrc`, same as vimrc, but remove the arrow keys mapping.
-
-4. `experimental-vimrc`, same as pro-vimrc, but just for experimental purpose.
+2. `gvimrc`, same as vimrc, but added some features only available in GUI mode.
 
 you can link your `~/.vimrc` to any one of them as you wish :)
 
@@ -97,4 +93,6 @@ change directory to `~/.vim` and execute `./update.sh` script, it should do all 
 Enjoy it, and if there's any question or comment, feel free to let me know :)
 
 ## Reference
-This work is pre-done by Eddie Kao (eddie@digik.com.tw)
+This work was forked from Eddie Kao (eddie@digik.com.tw)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bfeng/vim4lin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
