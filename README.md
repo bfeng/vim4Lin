@@ -77,22 +77,18 @@ change directory to `~/.vim` and execute `./update.sh` script, it should do all 
 
     f. hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name. And `<ctrl>w u` will match from your MRU(Mostly Recent Used) files, which is also frequently used.
 
-    g. hit `<leader>` twice to toggle comment on and off.
+    g. hit `\` twice to toggle comment on and off.
 
     h. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
 
-    i. `<leader>v` to open `.vimrc` in a new tab.
+    i. `\``v` to open `.vimrc` in a new tab.
 
-    j. `<leader>0` to edit or create `README.md` in current working directory.
+    j. `\``0` to edit or create `README.md` in current working directory.
 
 4. Remove tailing whitespace automatically while saving.
 5. [Exuberant Ctags](http://ctags.sourceforge.net/) is recommended for the executable of ctags.
 
-## Contact
-
-Enjoy it, and if there's any question or comment, feel free to let me know :)
-
 ## Reference
-This work was forked from Eddie Kao (eddie@digik.com.tw)
+This work was forked from Eddie Kao's [eddie-vim](https://github.com/kaochenlong/eddie-vim). Thanks!
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bfeng/vim4lin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
