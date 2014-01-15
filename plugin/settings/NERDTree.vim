@@ -9,6 +9,7 @@ map <leader>r :NERDTreeFind<cr>
 
 " make nerdtree look nice
 let NERDTreeMinimalUI=1
-let NERDTreeDirArrows=1
+" make nerdtree compatiable
+let NERDTreeDirArrows=0
 let g:NERDTreeWinSize=30
 let NERDTreeIgnore=['\.pyc$']
