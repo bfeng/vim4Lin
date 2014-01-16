@@ -40,9 +40,11 @@ set hlsearch                          " search highlighting
 set incsearch                         " incremental search
 syntax enable
 set t_Co=256
+set encoding=utf-8
 try
-  colorscheme rails_envy
+  colorscheme molokai
 catch
+  colorscheme default
 endtry
 
 set nobackup                          " no *~ backup files
