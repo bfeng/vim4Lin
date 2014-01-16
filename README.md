@@ -1,4 +1,5 @@
-This is another vim configuration, which I normally use under terminal. So default theme is changed to `molokai`, which is optimized for C and terminals.
+## Overview
+This is another vim configuration, which I normally use under terminal. So default theme is changed to `molokai`, which is optimized for C under terminals.
 
 Vim related settings are in `plugin/settings/Settings.vim`, and other plugins' settings are in `plugin/settings` corresponding directories.
 
@@ -12,19 +13,19 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 
 It's a screenshot of the up-to-date configuration:
 
-![image](https://github.com/bfeng/vim4Lin/blob/master/screenshots/Screenshot.png?raw=true)
+![image](https://github.com/bfeng/vim4Lin/blob/airline/screenshots/Screenshot-c.png?raw=true)
 
-The content above is from http://flask.pocoo.org/snippets/5/
+![image](https://github.com/bfeng/vim4Lin/blob/airline/screenshots/Screenshot-python.png?raw=true)
 
-## Usage
+The content above is from [http://flask.pocoo.org/snippets/5/](http://flask.pocoo.org/snippets/5/)
 
-### Installation and Requisites:
+## Installation and Update
 
 1. BACKUP your `.vim` directory and `.vimrc` first.(IMPORTANT!)
 
 2. `cd ~` to change directory to your home directory.
 
-3. copy files to your home directory:
+3. Clone files to your home directory:
 
         git clone https://github.com/bfeng/vim4Lin.git
 
@@ -41,27 +42,19 @@ The content above is from http://flask.pocoo.org/snippets/5/
 
         ln -s .vim/vimrc .vimrc
 
-7. if you're still not familiar with the movement in vim by HJKL or yanking and pasting text, I've made a easier version:
-
-        ln -s .vim/easy-vimrc .vimrc
-
-8. if you use GUI version VIM, such as MacVim or GVim, you can also link to `.gvimrc`:
+7. if you use GUI version VIM, such as MacVim or GVim, you can also link to `.gvimrc`:
 
         ln -s .vim/gvimrc .gvimrc
 
-9. if you use Powerline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/scotu/ubuntu-mono-powerline), it looks pretty nice.
+8. you may need to install `ack` first if you use `ack.vim`.
 
-10. you may need to install `ack` first if you use `ack.vim`.
+9. change directory to `~/.vim` and execute `./update.sh` script, it should do all the updates automatically.
 
-### Update:
-
-change directory to `~/.vim` and execute `./update.sh` script, it should do all the updates automatically.
-
-### Features and Key Mappings:
+## Features and Key Mappings
 
 1. Resize splited windows automatically, so that you  get a bigger editing room if you're working with a smaller screen. (stole from [Gary Bernhardt](https://github.com/garybernhardt))
 
-2. Toggle between working mode and presentation mode by `<leader>z`, but only work in GUI version Vim. You can check [here](http://blog.eddie.com.tw/2012/03/14/switch-to-presentation-mode/) to see how it looks like. (stole from [Mike Skalnik](https://github.com/skalnik))
+2. Toggle between working mode and presentation mode by `\``z`, but only work in GUI version Vim. You can check [here](http://blog.eddie.com.tw/2012/03/14/switch-to-presentation-mode/) to see how it looks like. (stolen from [Mike Skalnik](https://github.com/skalnik))
 
 3. some usually used key mappings in normal mode:
 
