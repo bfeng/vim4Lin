@@ -13,9 +13,9 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 
 It's a screenshot of the up-to-date configuration:
 
-![image](https://github.com/bfeng/vim4Lin/blob/airline/screenshots/Screenshot-c.png?raw=true)
+![image](https://github.com/bfeng/vim4Lin/blob/master/screenshots/Screenshot-c.png?raw=true)
 
-![image](https://github.com/bfeng/vim4Lin/blob/airline/screenshots/Screenshot-python.png?raw=true)
+![image](https://github.com/bfeng/vim4Lin/blob/master/screenshots/Screenshot-python.png?raw=true)
 
 The content above is from [http://flask.pocoo.org/snippets/5/](http://flask.pocoo.org/snippets/5/)
 
