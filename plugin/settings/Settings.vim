@@ -39,9 +39,8 @@ syntax on                             " syntax highlight
 set hlsearch                          " search highlighting
 set incsearch                         " incremental search
 syntax enable
-set t_Co=256
-set encoding=utf-8
 try
+  set t_Co=256
   colorscheme molokai
 catch
   colorscheme default
