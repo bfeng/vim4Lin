@@ -46,9 +46,7 @@ The content above is from [http://flask.pocoo.org/snippets/5/](http://flask.poco
 
         ln -s .vim/gvimrc .gvimrc
 
-8. you may need to install `ack` first if you use `ack.vim`.
-
-9. change directory to `~/.vim` and execute `./update.sh` script, it should do all the updates automatically.
+8. change directory to `~/.vim` and execute `./update.sh` script, it should do all the updates automatically.
 
 ## Features and Key Mappings
 
@@ -83,5 +81,7 @@ The content above is from [http://flask.pocoo.org/snippets/5/](http://flask.poco
 
 ## Reference
 This work was forked from Eddie Kao's [eddie-vim](https://github.com/kaochenlong/eddie-vim). Thanks!
+Some modules, such as which support `flex` and css colors, are moved out, and add some modules which support `latex` are added in.
+The `molokai` theme is now supported as the main coding theme and `vim-airline` replaces the obsolte `vim-powerline`. Much work were done to focus on the compatibility between the GUI mode and the console mode.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bfeng/vim4lin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
