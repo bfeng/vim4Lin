@@ -70,7 +70,7 @@ The content above is from [http://flask.pocoo.org/snippets/5/](http://flask.poco
 
     g. hit `\` twice to toggle comment on and off.
 
-    h. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
+    h. `<tab>` and `<shift><tab>` to increase and decrease the syntax indentation.
 
     i. `\``v` to open `.vimrc` in a new tab.
 
