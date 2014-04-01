@@ -1,7 +1,8 @@
 source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#incubate()
+"call pathogen#incubate()
+call pathogen#infect('bundle{}')
 filetype off
-call pathogen#infect()
+"call pathogen#infect()
 syntax on
 filetype plugin indent on
 
