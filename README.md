@@ -70,7 +70,7 @@ The content above is from [http://flask.pocoo.org/snippets/5/](http://flask.poco
 
     g. hit `\` twice to toggle comment on and off.
 
-    h. `<tab>` and `<shift><tab>` to increase and decrease the syntax indentation. By default, `<tab>` will invoke the code-completion prompt. If you need to input a real `<tab>` into text, hit '<C-v>` and '<tab>`.
+    h. `<tab>` and `<shift><tab>` to increase and decrease the syntax indentation. By default, `<tab>` will invoke the code-completion prompt. If you need to input a real `<tab>` into text, hit `<ctrl>v` and `<tab>`.
 
     i. `\``v` to open `.vimrc` in a new tab.
 
