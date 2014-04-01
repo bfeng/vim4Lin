@@ -98,6 +98,8 @@ map <Leader><Leader> <Leader>c<space>
 " next and prev tab
 noremap <F7> gT
 noremap <F8> gt
+map < gT
+map > gt
 
 " identation
 nmap <TAB> v>
