@@ -12,7 +12,7 @@ git submodule foreach git submodule update
 git submodule foreach git pull origin master
 
 
-# remote obsolete bundles
+# remove obsolete bundles
 if [ -d bundle/snipmate ]
 then
   rm -rf bundle/snipmate
