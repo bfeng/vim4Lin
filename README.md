@@ -34,19 +34,13 @@ The content above is from [http://flask.pocoo.org/snippets/5/](http://flask.poco
         cd vim4Lin
         ./update.sh
 
-5. make a symbolic link `.vim` to `vim4Lin` that you just cloned, or just rename it to `.vim` also be fine:
+5. backup your existing configuration files
 
-        ln -s vim4Lin .vim
+        cp ~/.vim ~/.vim_backup
 
-6. link the vimrc to
+6. run `install.sh`
 
-        ln -s .vim/vimrc .vimrc
-
-7. if you use GUI version VIM, such as MacVim or GVim, you can also link to `.gvimrc`:
-
-        ln -s .vim/gvimrc .gvimrc
-
-8. change directory to `~/.vim` and execute `./update.sh` script, it should do all the updates automatically.
+        ~/vim4Lin/install.sh
 
 ## Features and Key Mappings
 
