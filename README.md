@@ -19,6 +19,11 @@ It's a screenshot of the up-to-date configuration:
 
 The content above is from [http://flask.pocoo.org/snippets/5/](http://flask.pocoo.org/snippets/5/)
 
+![image](https://github.com/bfeng/vim4Lin/blob/master/screenshots/Screenshot-latex.png?raw=true)
+
+![image](https://github.com/bfeng/vim4Lin/blob/master/screenshots/Screenshot-coffeescript.png?raw=true)
+
+
 ## Installation and Update
 
 1. BACKUP your `.vim` directory and `.vimrc` first.(IMPORTANT!)
